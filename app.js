@@ -17,7 +17,7 @@ const path = require("path"); //
 
 //Adding CORS here to allow for the client-side to make requests to the API without getting the Access Allow Origin missing error
 app.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "https://eloquent-jackson-ba0dff.netlify.com"); // "http://localhost:3000" // update to match the domain you will make the request from
+  res.header("Access-Control-Allow-Origin", "https://eloquent-jackson-ba0dff.netlify.app"); // "http://localhost:3000" // update to match the domain you will make the request from
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
 });
