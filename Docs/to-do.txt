@@ -1,0 +1,18 @@
+1. Have data coming through from firebase locally, having issues with Heroku. Look into this.
+2. Get ability to write data up and running
+3. Connect this functionality with the NPM creact-react-app so I can make API calls from the react app!
+
+
+when you're creating a user in firebase, that's one thing. There's only a couple things you can have (username, email, etc.)
+
+the actual data you're attributing to the user, data apart from the authentication.
+
+Authentication in the final project will be exactly like exercise 5
+
+The rest of the data should look like exercise 4, an API that has uniform data to send to firebase and get data from firebase. So the only thing
+you need to get the data from exercise 4 is the user ID.
+
+Data part is exercise 4, authentication part is exercise 5
+
+
+NEED THE UID TO GET REFERENCE TO THE USER
